@@ -1,0 +1,56 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://api.mainnet.minepi.com/transactions/999e3d0330ec1dd8640c3764e8deaacf56c51077b61de5cd1d3b731a3befe071"
+        },
+        "account": {
+            "href": "https://api.mainnet.minepi.com/accounts/GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW"
+        },
+        "ledger": {
+            "href": "https://api.mainnet.minepi.com/ledgers/19965497"
+        },
+        "operations": {
+            "href": "https://api.mainnet.minepi.com/transactions/999e3d0330ec1dd8640c3764e8deaacf56c51077b61de5cd1d3b731a3befe071/operations{?cursor,limit,order}",
+            "templated": true
+        },
+        "effects": {
+            "href": "https://api.mainnet.minepi.com/transactions/999e3d0330ec1dd8640c3764e8deaacf56c51077b61de5cd1d3b731a3befe071/effects{?cursor,limit,order}",
+            "templated": true
+        },
+        "precedes": {
+            "href": "https://api.mainnet.minepi.com/transactions?order=asc&cursor=85751156663398400"
+        },
+        "succeeds": {
+            "href": "https://api.mainnet.minepi.com/transactions?order=desc&cursor=85751156663398400"
+        },
+        "transaction": {
+            "href": "https://api.mainnet.minepi.com/transactions/999e3d0330ec1dd8640c3764e8deaacf56c51077b61de5cd1d3b731a3befe071"
+        }
+    },
+    "id": "999e3d0330ec1dd8640c3764e8deaacf56c51077b61de5cd1d3b731a3befe071",
+    "paging_token": "85751156663398400",
+    "successful": true,
+    "hash": "999e3d0330ec1dd8640c3764e8deaacf56c51077b61de5cd1d3b731a3befe071",
+    "ledger": 19965497,
+    "created_at": "2025-03-31T02:10:42Z",
+    "source_account": "GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW",
+    "source_account_sequence": "82730325775526480",
+    "fee_account": "GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW",
+    "fee_charged": "100000",
+    "max_fee": "100000",
+    "operation_count": 1,
+    "envelope_xdr": "AAAAAgAAAABF5sZzguIgBgdEep5HmBpsW0QO5mMEM1KqOmkjOj55qAABhqABJerLAACqUAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAADAke4lBupl5v5m7cmhM/ZysoJiSKwdnjPlbiId9xYpvQAAAAAAAAAADu/aQAAAAAAAAAABOj55qAAAAEDt5y9aSEylibajj0LRVKeU0dg/t8BTnv4Zj2Fr9xaVyADK0WZxHjPF5KAuCvr7cKtrUhAIrC138418QGBjOYQB",
+    "result_xdr": "AAAAAAABhqAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=",
+    "result_meta_xdr": "AAAAAgAAAAIAAAADATCmOQAAAAAAAAAARebGc4LiIAYHRHqeR5gabFtEDuZjBDNSqjppIzo+eagAAzO0WjcQCAEl6ssAAKpPAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAABMKY4AAAAAGfp+Z0AAAAAAAAAAQEwpjkAAAAAAAAAAEXmxnOC4iAGB0R6nkeYGmxbRA7mYwQzUqo6aSM6PnmoAAMztFo3EAgBJerLAACqUAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAMAAAAAATCmOQAAAABn6fmiAAAAAAAAAAEAAAAEAAAAAwEwpjkAAAAAAAAAAEXmxnOC4iAGB0R6nkeYGmxbRA7mYwQzUqo6aSM6PnmoAAMztFo3EAgBJerLAACqUAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAMAAAAAATCmOQAAAABn6fmiAAAAAAAAAAEBMKY5AAAAAAAAAABF5sZzguIgBgdEep5HmBpsW0QO5mMEM1KqOmkjOj55qAADM7RLRzXIASXqywAAqlAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAAEwpjkAAAAAZ+n5ogAAAAAAAAADATCbkQAAAAAAAAAAwJHuJQbqZeb+Zu3JoTP2crKCYkisHZ4z5W4iHfcWKb0AAAAAAPSr8ADWkecAAAAeAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAwAAAAABMJuRAAAAAGfpwb8AAAAAAAAAAQEwpjkAAAAAAAAAAMCR7iUG6mXm/mbtyaEz9nKygmJIrB2eM+VuIh33Fim9AAAAAA/khjAA1pHnAAAAHgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAMAAAAAATCbkQAAAABn6cG/AAAAAAAAAAA=",
+    "fee_meta_xdr": "AAAAAgAAAAMBMKY4AAAAAAAAAABF5sZzguIgBgdEep5HmBpsW0QO5mMEM1KqOmkjOj55qAADM7RaOJaoASXqywAAqk8AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAAEwpjgAAAAAZ+n5nQAAAAAAAAABATCmOQAAAAAAAAAARebGc4LiIAYHRHqeR5gabFtEDuZjBDNSqjppIzo+eagAAzO0WjcQCAEl6ssAAKpPAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAABMKY4AAAAAGfp+Z0AAAAA",
+    "memo_type": "none",
+    "signatures": [
+        "7ecvWkhMpYm2o49C0VSnlNHYP7fAU57+GY9ha/cWlcgAytFmcR4zxeSgLgr6+3Cra1IQCKwtd/ONfEBgYzmEAQ=="
+    ],
+    "valid_after": "1970-01-01T00:00:00Z",
+    "preconditions": {
+        "timebounds": {
+            "min_time": "0"
+        }
+    }
+}
